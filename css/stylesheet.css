@@ -1,0 +1,300 @@
+/*Layout*/
+#ENSIAS
+{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+#EP
+{
+    width: 100px;
+    height: 100px;
+}
+#um5
+{
+    height: 100px;
+}
+#Logos
+{
+    margin: -8px -8px;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+body
+{
+    background-image: url(BckGrnd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Page d'acceuil*/
+#Menu,#Conn
+{
+    display: flex;
+    justify-content: center;
+}
+#Archive
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Connexion
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Person
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 50%;
+    
+}
+#TextConn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+#Folder
+{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 50%;
+    
+    
+}
+#TextArch
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+nav {
+ box-shadow: 1px 2px red;
+}
+nav {
+  text-align: center;
+}
+
+/*Button style*/
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+button:hover
+{
+    cursor: pointer;
+    transform: scale(1.25,1.25);
+}
+a
+{
+    text-decoration: none;
+}
+#button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+#button:hover
+{
+    cursor: pointer;
+    transform: scale(1.25,1.25);
+}
+a
+{
+    text-decoration: none;
+}
+/*header style*/
+h1
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+h2
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+        h4{
+            color: red;
+            position:absolute;
+            display: inline;
+            top: 410px;
+            left: 500px;
+            z-index: 2;
+        }
+input[type="text"], input[type="password"]
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+	border-color: #fceced;
+}
+
+input[type="text"]:focus, input[type="password"]:focus
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+	border-color: #e5474b;
+}
+#Welcome1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 30%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+    font-size: 4em;  
+}
+
+#Welcome2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 225px;
+    width: 30%;
+    font-family: monospace;
+    color: black;
+    text-indent: inherit;
+    font-size: 4em;  
+}
+#nav 
+{
+    margin: -8px -8px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+
+}
+#Menus
+{
+    width: 150px;
+    display: block;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+
+#Opt
+{
+    width:inherit;
+    height: 50px;
+   
+}
+#hidden 
+{
+    list-style: none;
+    display: none;
+}
+#visible button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+}
+#visible:hover #hidden 
+{
+    display: block;
+}
+.footer{
+    position:relative;
+    /*bottom:50px;*/
+    padding-bottom: 20px;
+    padding-left: 25px;
+    left:0px;
+    background:black;
+    color:white;
+    margin-top:200px;
+    padding:10px;
+    width :99%;
+}
+
+.copyright{
+    color:white;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+    

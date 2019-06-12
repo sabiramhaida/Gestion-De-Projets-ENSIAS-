@@ -1,0 +1,67 @@
+.login-form{
+  border: black solid 2px;
+  width : 500px;
+  display : none;
+  margin: 0 auto;
+}
+/*input area*/
+input[type = "text"], input[type = "password"]{
+  width: 100%;
+  padding : 12px 20px;
+  margin : 8px 0;
+  display: block; 
+  border: 1px solid;
+  box-sizing : border-box;
+}
+/*style for all the buttons*/
+button {
+  background-color: green;
+  padding:14px 20px;
+  width: 100%;
+  cursor: pointer
+}
+button:hover {
+  color: white
+}
+.initial {
+  width: 100px
+}
+.cancelbtn{
+  background-color : red;
+  width: 100px;
+  margin:  8px;
+}
+/*styling the image area, put img in the center and X button at top right*/
+.img-area{
+  text-align: center;
+  padding-left : 20px;
+  position : relative;
+}
+.avatar {
+  width : 200px;
+  border-radius: 20%;
+  margin-top: 30px;
+}
+.closebtn{
+  float: right;
+  padding-left: 20px;
+  top: 0;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px
+}
+.closebtn:hover{
+  color:red
+}
+/*styling user area*/
+.user-area{
+  margin: 20px
+}
+.footer{
+  margin-top : 10px;
+  background-color: #eee;
+}
+.footer a {
+  float: right;
+  margin: 20px
+}
