@@ -24,4 +24,4 @@ les projets ici ne sont pas affectés a aucun binome et pourtant ya la plannific
 
 vous pouvez affecter les projet manuelement on remplirant les id_m_b dans projet ou bien automatiquement par l'application  (iedntifiant: admin  mdp: admin)
 
---->Vous trouvez qlq identifiants avec les mdp dans "compts_Connection" .
+--->Vous trouvez qlq identifiants avec les mdp dans "BDD+Comptes/compts_Connection" .
