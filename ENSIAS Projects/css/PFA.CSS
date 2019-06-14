@@ -1,0 +1,34 @@
+body
+{
+    background-image: url(Background.png);
+    color: white;
+    width: 50px auto;
+    height: 50px;
+    margin: auto;
+}
+#Moha
+{
+    margin: 0px 0px 0px 1140px ;
+}
+h1
+{
+    text-align: center;
+}
+.NdcMdp
+{
+   width: 100%;
+    margin: 0px 590px auto;
+}
+.Check
+{
+    width: auto;
+
+    margin: 0px 590px auto;
+}
+
+#Insc
+{
+    width: auto;
+    margin: 0px 590px auto;
+}
+

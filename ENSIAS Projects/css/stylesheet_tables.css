@@ -1,0 +1,922 @@
+/*Layout*/
+#ENSIAS
+{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+#EP
+{
+    width: 100px;
+    height: 100px;
+}
+#um5
+{
+    height: 100px;
+}
+#Logos
+{
+    margin: -8px -8px;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+body
+{
+    background-image: url(BckGrnd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Page d'acceuil*/
+#Menu,#Conn
+{
+    display: flex;
+    justify-content: center;
+}
+#Archive
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Connexion
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Person
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 50%; 
+}
+#Person_etud
+{
+    display: block;
+    margin-left: 560px;
+    margin-right: auto;
+    width: 50%; 
+}
+
+#TextConn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+#Folder
+{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 50%;
+    
+    
+}
+#TextArch
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+
+/*Button style*/
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+button:hover
+{
+    cursor: pointer;
+    transform: scale(1.25,1.25);
+}
+a
+{
+    text-decoration: none;
+}
+/*header style*/
+h1
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+h2
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+input[type="text"], input[type="password"]
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+  border-color: #fceced;
+}
+
+input[type="text"]:focus, input[type="password"]:focus
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+  border-color: #e5474b;
+}
+#Welcome1
+{
+    display: block;
+    margin-left: 540px;
+    margin-right: 0px;
+    margin-top: 2px;
+    width: 100%;
+    font-family: monospace;
+    color: red;
+    font-size: 2em;  
+}
+
+#Welcome2
+{
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: -190px;
+    width: 90%;
+    font-family: monospace;
+    color: black;
+    font-size: 3em;  
+}
+#nav 
+{
+    margin: -8px -8px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+
+}
+#Menus
+{
+    width: 150px;
+    display: block;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+
+#Opt
+{
+    width:inherit;
+    height: 50px;
+   
+}
+#hidden 
+{
+    list-style: none;
+    display: none;
+}
+#visible button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+}
+#visible:hover #hidden 
+{
+    display: block;
+}
+
+table {
+  text-align: center;
+  line-height: 25px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 5px solid #ed1c40;
+  width: 90%;
+  margin: 6px auto;
+  border-radius: .25rem;
+}
+thead tr:first-child {
+  background: #ed1c40;
+  color: #fff;
+  border: none;
+}
+
+thead tr:last-child th {
+  border-bottom: 3px solid #ed1c40;
+}
+
+
+
+tbody tr:hover {
+  background-color: rgba(230, 28, 64, .4);
+  color:black;
+  font-weight: 400;
+  cursor: default;
+}
+
+tbody td {
+  border-bottom: 1.5px solid ;
+  border-right: 0.2px solid #D3D3D3;
+}
+
+.titre{
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+.titreForSout{
+    word-wrap: break-word;
+    max-width: 1000px;
+}
+
+.description{ 
+    word-wrap: break-word;
+    max-width: 350px;
+    padding-left:50px;
+}
+}
+.PFA1{
+    background: #dddddd;
+}
+
+.PFA2{
+    background: #f0e7d2;
+}
+
+.PFE{
+    background: #f3f8f3;
+}
+.inner {
+    max-width: 75em;
+    margin: 0 auto;
+  }
+
+.effectue{
+  max-width: 100px;
+}
+.heure{
+  max-width: 100px;
+}
+.date{
+  max-width: 100px;
+}
+  #header {
+    color: #fff;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: absolute;
+    text-align: right;
+    top: 2em;
+    width: 100%;
+  }
+  
+    #header a {
+      -moz-transition: color 0.2s ease-in-out;
+      -webkit-transition: color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
+      display: inline-block;
+      padding: 0 0.75em;
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+    }
+         #ensias { 
+            display: block;
+            margin: -20px 0 10px 10px;
+            float: left;
+        }
+
+
+        hr { width:80%; height:0.3px; transform: translate(12.5%); opacity: .4}
+
+        caption{
+            color: black;
+            text-align: left;
+            padding-bottom: 20px;
+            padding-left: 25px;
+        }
+.footer{
+    position:relative;
+    /*bottom:50px;*/
+    padding-bottom: 20px;
+    padding-left: 25px;
+    left:0px;
+    background:black;
+    color:white;
+    margin-top:270px;
+    padding:10px;
+    width :99%;
+}
+
+.copyright{
+    color:white;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+ /*style du bottuon Inbox ..........................................................*/  
+
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+ /*pour les message ..........................................................*/ 
+.alert {
+  background: #fffaef;
+  border-color: #ecdcb6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  color: #b68b53
+}
+.alert strong, .alert b {
+  color: inherit
+}
+.alert-danger, .alert-error {
+  background: #f7e7e4;
+  border-color: #ecbeb6;
+  color: #b55351
+}
+.alert-success {
+  background: #eaf4e2;
+  border-color: #c1dea9;
+  color: #61a06f
+}
+/* pour le style de checkbox .....................................*/
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+input[type=checkbox]:after {
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 6px;
+  color: #00BFF0;
+  width: 23px;
+  height: 25px;
+  visibility: visible;
+  border: 1px solid #00BFF0;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked:after {
+  padding: -5px;
+  font-weight: bold;
+/*Layout*/
+#ENSIAS
+{
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+#EP
+{
+    width: 100px;
+    height: 100px;
+}
+#um5
+{
+    height: 100px;
+}
+#Logos
+{
+    margin: -8px -8px;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+body
+{
+    background-image: url(BckGrnd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Page d'acceuil*/
+#Menu,#Conn
+{
+    display: flex;
+    justify-content: center;
+}
+#Archive
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Connexion
+{
+    margin-top: 50px;
+    height: 400px;
+    width : 275px;
+}
+#Person
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 50%; 
+}
+#Person_etud
+{
+    display: block;
+    margin-left: 560px;
+    margin-right: auto;
+    width: 50%; 
+}
+
+#TextConn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+#Folder
+{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 50%;
+    
+    
+}
+#TextArch
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    font-family: monospace;
+    color: firebrick;
+    text-indent: inherit;
+}
+
+/*Button style*/
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+button:hover
+{
+    cursor: pointer;
+    transform: scale(1.25,1.25);
+}
+a
+{
+    text-decoration: none;
+}
+/*header style*/
+h1
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+h2
+{
+    text-align: center;
+    font-family: monospace;
+    color: firebrick;
+}
+input[type="text"], input[type="password"]
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+  border-color: #fceced;
+}
+
+input[type="text"]:focus, input[type="password"]:focus
+{
+    padding: 0px 16px;
+    height: 38px;
+    width: 305px;
+    border: 4px solid;
+    background: none;
+  border-color: #e5474b;
+}
+#Welcome1
+{
+    display: block;
+    margin-left: 520px;
+    margin-right: 0px;
+    margin-top: 2px;
+    width: 100%;
+    font-family: monospace;
+    color: red;
+    font-size: 2em;  
+}
+
+#Welcome2
+{
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: -190px;
+    width: 90%;
+    font-family: monospace;
+    color: black;
+    font-size: 3em;  
+}
+#nav 
+{
+    margin: -8px -8px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+
+}
+#Menus
+{
+    width: 150px;
+    display: block;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+
+#Opt
+{
+    width:inherit;
+    height: 50px;
+   
+}
+#hidden 
+{
+    list-style: none;
+    display: none;
+}
+#visible button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    background-color: firebrick;
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 1s;
+}
+}
+#visible:hover #hidden 
+{
+    display: block;
+}
+
+table {
+  text-align: center;
+  line-height: 25px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 5px solid #ed1c40;
+  width: 90%;
+  margin: 6px auto;
+  border-radius: .25rem;
+}
+thead tr:first-child {
+  background: #ed1c40;
+  color: #fff;
+  border: none;
+}
+
+thead tr:last-child th {
+  border-bottom: 3px solid #ed1c40;
+}
+
+
+
+tbody tr:hover {
+  background-color: rgba(230, 28, 64, .4);
+  color:black;
+  font-weight: 400;
+  cursor: default;
+}
+
+tbody td {
+  border-bottom: 1.5px solid ;
+  border-right: 0.2px solid #D3D3D3;
+}
+
+.titre{
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+.description{ 
+    word-wrap: break-word;
+    max-width: 350px;
+    padding-left:50px;
+}
+}
+.PFA1{
+    background: #dddddd;
+}
+
+.PFA2{
+    background: #f0e7d2;
+}
+
+.PFE{
+    background: #f3f8f3;
+}
+.inner {
+    max-width: 75em;
+    margin: 0 auto;
+  }
+
+.effectue{
+  max-width: 100px;
+}
+.heure{
+  max-width: 100px;
+}
+.date{
+  max-width: 100px;
+}
+  #header {
+    color: #fff;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: absolute;
+    text-align: right;
+    top: 2em;
+    width: 100%;
+  }
+  
+    #header a {
+      -moz-transition: color 0.2s ease-in-out;
+      -webkit-transition: color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
+      display: inline-block;
+      padding: 0 0.75em;
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+    }
+         #ensias { 
+            display: block;
+            margin: -20px 0 10px 10px;
+            float: left;
+        }
+
+
+        hr { width:80%; height:0.3px; transform: translate(12.5%); opacity: .4}
+
+        caption{
+            color: black;
+            text-align: left;
+            padding-bottom: 20px;
+            padding-left: 25px;
+        }
+.footer{
+    position:relative;
+    /*bottom:50px;*/
+    padding-bottom: 20px;
+    padding-left: 25px;
+    left:0px;
+    background:black;
+    color:white;
+    margin-top:270px;
+    padding:10px;
+    width :99%;
+}
+
+.copyright{
+    color:white;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+ /*style du bottuon Inbox ..........................................................*/  
+
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+ /*pour les message ..........................................................*/ 
+.alert {
+  background: #fffaef;
+  border-color: #ecdcb6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+  color: #b68b53
+}
+.alert strong, .alert b {
+  color: inherit
+}
+.alert-danger, .alert-error {
+  background: #f7e7e4;
+  border-color: #ecbeb6;
+  color: #b55351
+}
+.alert-success {
+  background: #eaf4e2;
+  border-color: #c1dea9;
+  color: #61a06f
+}
+/* pour le style de checkbox .....................................*/
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+input[type=checkbox]:after {
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 6px;
+  color: #00BFF0;
+  width: 23px;
+  height: 25px;
+  visibility: visible;
+  border: 1px solid #00BFF0;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked:after {
+  padding: -5px;
+  font-weight: bold;
+}
