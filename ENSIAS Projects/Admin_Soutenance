@@ -1,0 +1,45 @@
+<?php
+include("connect_database.php");
+
+session_start();
+if ($_SESSION['login_ok_admin'] == false) {  //controler la session pour des raisons de securite
+header('Location:loginpage.php');
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="Fr" >
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Affectation</title>
+
+      <link rel="stylesheet" href="css/Etudiant_Affectation.css">
+      <img src="Images/Logo%20ENSIAS.png" height="100" width="90" id="ENSIAS">
+</head>
+<body>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,400italic,600italic,600' rel='stylesheet' type='text/css'>
+      <link rel="Stylesheet" href="css/master.css" type="text/css" />
+      </style>
+      <link rel="Stylesheet" href="https://ianlunn.github.io/Hover/css/hover.css" type="text/css" />
+      <link rel="Stylesheet" href='https://fonts.googleapis.com/css?family=Muli' type='text/css'>
+  </head>
+  <nav>
+    <ul>
+      <li><a href="page_admin.php">Accueil</a></li>
+      <li><a href="#">Calendrier des Soutenances</a></li>
+        <li><a href="Admin_Affectation.php">Affectation des Projets</a></li>
+        <li><a href="#">Gestion Des Comptes</a>
+        <ul>
+          <li><a href="changerMdp.php">changer mon Mot de passe</a></li>
+          <li><a href="#"> Supprimer un compte</a></li>
+          <li><a href="#"> Modifier un Compte</a></li>
+          <li><a href="#">Ajouter un compte</a></li>
+        </ul>
+        </li>
+       <li><a href="Deconnexion.php">déconnexion</a></li>
+    </ul>
+  </nav>
+<h4>ENSIAS-projects</h4>
