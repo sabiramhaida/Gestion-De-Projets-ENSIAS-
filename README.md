@@ -2,8 +2,8 @@
 web application with PHP HTML CSS MYSQL JS
 final year Projects management
 
-Application de gestion de Proejts d'une ecole
-c'est une Application web simple de gestion de Proejts d'une ecole faite par HTML CSS MySQL PHP et un peu de JS.
+Application de gestion de Projets d'une ecole :
+c'est une Application web simple de gestion de Projets d'une ecole faite par HTML CSS MySQL PHP et un peu de JS.
 
 
 vous devez tout d'abord creer une 'database' BDD_PFA1 et modifier le fichier "connect_database.php" pour l'adapter a la base de donnée que vous avez/allez creé dans votre Localhost..
