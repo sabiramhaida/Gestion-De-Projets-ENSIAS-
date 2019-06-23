@@ -1,0 +1,64 @@
+body {
+font-family:Arial;
+}
+input {
+font-family:Arial;
+font-size:14px;
+}
+label{
+font-family:Arial;
+font-size:14px;
+color:red;
+}
+
+.tblSaveForm {
+border-top:2px #red solid;
+background-color: #f8f8f8;
+}
+.tableheader {
+background-color: red;
+}
+.tablerow {
+background-color: #A7D6F1;
+color:white;
+}
+.btnSubmit {
+background-color: blue;
+padding:5px;
+border-radius:4px;
+color:white;
+}
+.message {
+color: #FF0000;
+text-align: center;
+width: 100%;
+}
+.txtField {
+padding: 5px;
+border:#fedc4d 1px solid;
+border-radius:4px;
+}
+.evenRow {
+background-color: #E2EDF9;
+font-size:12px;
+color:#101010;
+}
+.evenRow:hover {
+background-color: #ffef46;
+}
+.oddRow {
+background-color: #B3E8FF;
+font-size:12px;
+color:#101010;
+}
+.oddRow:hover {
+background-color: #ffef46;
+}
+.tblListForm {
+border-top:2px #999999 solid;
+}
+.listheader {
+background-color: #fedc4d;
+font-size:12px;
+font-weight:bold;
+}
