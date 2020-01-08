@@ -1,4 +1,4 @@
-# PFA1_GestionDePtojets
+# PFA1_GestionDeProjets
 web application with PHP HTML CSS MYSQL JS
 final year Projects management
 
