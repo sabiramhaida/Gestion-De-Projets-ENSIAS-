@@ -21,7 +21,8 @@ you have to modifie connect_database.php ( your MYSQL account and password + dat
  BDD+comptes)
 
 
----------------------------------------------------N.B.-------------------------------------------------------------------------
+## ------------N.B.----------------
+
 les projets ici ne sont pas affectés a aucun binome et pourtant ya la plannification des soutenance et qlq rv programmés c just parce qu'on a rendu les id_m_b NuLL dans la table projet pour faire un video demonstrative de l'etape de l'affectation .. \
 
 vous pouvez affecter les projet manuelement on remplirant les id_m_b dans projet ou bien automatiquement par l'application  (iedntifiant: admin  mdp: admin)
